@@ -1,14 +1,13 @@
 {
   "name": "oo.js",
-  "version": "1.0.0",
-  "main": "oo.js",
-  "description": "Simple Javascript Inheritance by John Resig",
+  "version": "1.0",
   "homepage": "http://ejohn.org/blog/simple-javascript-inheritance/",
-  "dependencies": {},
   "authors": [
-    "John Resig <jeresig@gmail.com>"
+    "John Resig <jeresig@gmail.com>",
     "Chris Brousseau <brousseau.chris@gmail.com>"
   ],
+  "description": "Extension to John Resig's Simple JavaScript Inheritance",
+  "main": "oo.js",
   "moduleType": [],
   "license": "MIT",
   "ignore": [
