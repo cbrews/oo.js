@@ -7,7 +7,7 @@
     "Chris Brousseau <brousseau.chris@gmail.com>"
   ],
   "description": "Extension to John Resig's Simple JavaScript Inheritance",
-  "main": "oo.js",
+  "main": "oo.min.js",
   "moduleType": [],
   "license": "MIT",
   "ignore": [
