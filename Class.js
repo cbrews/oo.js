@@ -8,7 +8,14 @@
  
   // The base Class implementation (does nothing)
   this.Class = function(){};
- 
+  
+  // shallow copy extension, this is good enough for our purposes
+  _extend = function(dest, src){
+    for(var p in src){
+      dest[p] = src[p]
+    }
+  }
+
   // Create a new Class that inherits from this class
   Class.extend = function(prop) {
     var _super = this.prototype;
@@ -46,8 +53,11 @@
     // The dummy class constructor
     function Class() {
       // All construction is actually done in the init method
-      if ( !initializing && this.init )
-        this.init.apply(this, arguments);
+      if ( !initializing && this.init ){
+        var cfg = arguments[0];
+        _extend(this, cfg); // full object copy
+        this.init.apply(this);
+      }
     }
    
     // Populate our constructed prototype object
