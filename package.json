@@ -1,0 +1,19 @@
+{
+  "name": "oo.js",
+  "version": "1.1.0",
+  "description": "Extension to John Resig's Simple JavaScript Inheritance",
+  "main": "oo.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christhebrews/oo.js.git"
+  },
+  "author": "John Resig <jeresig@gmail.com>",
+  "contributors": [{
+    "name": "Chris Brousseau",
+    "email": "brousseau.chris@gmail.com"
+  }],
+  "license": "MIT",
+  "homepage": "http://ejohn.org/blog/simple-javascript-inheritance/"
+}
