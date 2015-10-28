@@ -71,4 +71,7 @@
    
     return Class;
   };
+
+  module.exports = Class;
+  
 })();
