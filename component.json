@@ -1,8 +1,21 @@
 {
-	"name": "Class.js",
-	"version": "1.0.0",
-	"main": "./Class.js",
-	"description": "Simple JavaScript Inheritance",
-	"homepage": "http://ejohn.org/blog/simple-javascript-inheritance/",
-	"dependencies": {}
+  "name": "oo.js",
+  "version": "1.0.0",
+  "main": "oo.js",
+  "description": "Simple Javascript Inheritance by John Resig",
+  "homepage": "http://ejohn.org/blog/simple-javascript-inheritance/",
+  "dependencies": {},
+  "authors": [
+    "John Resig <jeresig@gmail.com>"
+    "Chris Brousseau <brousseau.chris@gmail.com>"
+  ],
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
