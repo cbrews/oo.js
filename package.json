@@ -7,7 +7,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/christhebrews/oo.js.git"
+    "url": "git+https://github.com/cbrews/oo.js.git"
   },
   "author": "John Resig <jeresig@gmail.com>",
   "contributors": [{
